@@ -1,3 +1,13 @@
+"""
+This file contains the python code to generate the plots in my post on
+"Markov Chains" at the following link:
+
+https://mml.johnmyersmath.com/probabilistic%20programming/2022/12/28/pp1.html
+
+name: john myers
+date: dec 30, 2022
+"""
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
