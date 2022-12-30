@@ -123,7 +123,7 @@ for k in range(2, n + 1):
 
 # Step along the observed data in x_observed, and compute the posterior beta
 # distributions. For each level of observations (e.g., 1 observation, 2 observations,
-# etc.) there will be a corresponding plot on the ridge plot. Each of these subplots
+# etc.) there will be a corresponding plot on the ridgeline plot. Each of these subplots
 # will come from its own dataframe, so we need to initialize an empty list of
 # dataframes.
 df_list = []
@@ -143,7 +143,7 @@ for k in range(n):
 # 3-column dataframe. We need to also reset the indices for some annoying reason.
 df = pd.concat(df_list).reset_index()
 
-# The ridge plot will be created using a seaborn relplot.
+# The ridgeline plot will be created using a seaborn relplot.
 g = sns.relplot(data=df,
                 x='p',
                 y='density',
