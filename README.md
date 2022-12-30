@@ -4,8 +4,8 @@ This repo contains scripts and code samples for the content at my [website](http
 
 ## Contents
 
-1. [bayesian-plots.py](##bayesian-plotspy)
-2. [markovchain.py](##markovchainpy)
+1. [bayesian-plots.py](https://github.com/jmyers7/project-scripts#bayesian-plotspy)
+2. [markovchain.py](https://github.com/jmyers7/project-scripts##markovchainpy)
 
 ## bayesian-plots.py
 
